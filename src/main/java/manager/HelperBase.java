@@ -36,8 +36,9 @@ public class HelperBase {
     }
 
     public void submit() {
-        WebElement loginButton = wd.findElement(By.cssSelector("button[type$='submit']"));
-        loginButton.click();
+        new WebDriverWait(wd, Duration.ofSeconds(5))
+                .until(ExpectedConditions.elementToBeClickable(wd.findElement(By.cssSelector("button[type$='submit']"))));
+        wd.findElement(By.cssSelector("button[type$='submit']")).click();
     }
 
     public void waitUntil(int seconds, By locator) {
@@ -48,5 +49,17 @@ public class HelperBase {
 
     public boolean isElementPresent(By locator){
         return wd.findElements(locator).size() > 0;
+    }
+
+    public String getMessage() {
+        waitUntil(5, By.cssSelector("div.dialog-container"));
+
+        return wd.findElement(By.cssSelector("h2.message")).getText();
+    }
+
+    public String getTitleMessage() {
+        waitUntil(5, By.cssSelector("div.dialog-container"));
+
+        return wd.findElement(By.cssSelector("div.dialog-container>h1.title")).getText();
     }
 }

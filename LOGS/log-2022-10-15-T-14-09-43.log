@@ -1,0 +1,23 @@
+14:09:44.641 INFO  manager.ApplicationManager - Chrome Driver was opened
+14:09:56.556 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+14:09:56.584 INFO  TestBase - START TEST with name: searchCurrentMonthSuccess
+14:09:56.585 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+14:09:56.603 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+14:09:56.676 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+14:09:57.123 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+14:09:57.657 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+14:09:57.672 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+14:09:57.729 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 25 ']
+14:09:57.745 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 25 ']
+14:09:57.781 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 30 ']
+14:09:57.796 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 30 ']
+14:09:57.841 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+14:09:57.858 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+14:09:57.893 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+14:09:57.907 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+14:09:57.969 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+14:09:57.988 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+14:09:57.988 INFO  manager.ListenerWD - List size is ---> 1
+14:09:57.992 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+14:10:03.048 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+14:10:03.048 INFO  manager.ListenerWD - List size is ---> 0

@@ -1,0 +1,3 @@
+18:33:09.705 INFO  TestBase - Test starts with name ---> addCarSuccess
+18:33:12.503 INFO  TestBase - User add car: Car(location=Haifa, Israel, make=BMW, model=X5, year=2020, engine=2.5, fuel=Diesel, gear=MT, wD=RWD, doors=4, seats=5, car_class=Sedan, fuelConsumption=11, carRegistrationNumber=11-000-1024, price=75, distanceIncluded=100, feature=type of features, about=Lorem Ipsum)
+18:33:12.543 INFO  TestBase - User attaches photo

@@ -1,0 +1,166 @@
+18:57:33.020 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:58:00.782 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:58:00.816 INFO  TestBase - START TEST with name: registrationSuccessDP
+18:58:00.817 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:05.891 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:05.891 INFO  manager.ListenerWD - List size is ---> 0
+18:58:05.897 INFO  TestBase - Test starts with name ---> registrationSuccessDP
+18:58:05.898 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='registration']
+18:58:05.917 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='registration']
+18:58:08.713 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #name
+18:58:08.733 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #name
+18:58:08.805 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #lastName
+18:58:08.823 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #lastName
+18:58:08.888 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+18:58:08.903 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+18:58:08.988 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+18:58:09.006 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+18:58:09.082 INFO  TestBase - User registers with data: User{email='namesur@mail.tab', password='Ssurname_1234', name='Name', lastName='Surname'}
+18:58:09.082 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:09.099 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:09.241 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:09.259 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:09.288 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:09.301 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:09.334 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:10.042 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:10.054 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: h2.message
+18:58:10.069 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: h2.message
+18:58:10.081 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:10.091 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:10.100 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:10.114 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:10.123 INFO  TestBase - Assert passed
+18:58:10.126 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:10.140 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:10.140 INFO  manager.ListenerWD - List size is ---> 1
+18:58:10.140 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:10.153 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:10.177 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:10.188 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:10.188 INFO  manager.ListenerWD - List size is ---> 1
+18:58:10.189 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:10.202 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:10.235 INFO  TestBase - START TEST with name: registrationSuccessDP
+18:58:10.237 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:15.246 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:15.247 INFO  manager.ListenerWD - List size is ---> 0
+18:58:15.247 INFO  TestBase - Test starts with name ---> registrationSuccessDP
+18:58:15.247 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='registration']
+18:58:15.256 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='registration']
+18:58:15.343 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #name
+18:58:15.355 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #name
+18:58:15.423 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #lastName
+18:58:15.435 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #lastName
+18:58:15.502 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+18:58:15.512 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+18:58:15.593 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+18:58:15.604 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+18:58:15.673 INFO  TestBase - User registers with data: User{email='lissab@mail.tab', password='Ssurname_1234', name='Lisa', lastName='Black'}
+18:58:15.674 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:15.684 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:15.817 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:15.828 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:15.847 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:15.857 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:15.887 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:16.460 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:16.470 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: h2.message
+18:58:16.480 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: h2.message
+18:58:16.489 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:16.499 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:16.510 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:16.521 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:16.531 INFO  TestBase - Assert passed
+18:58:16.532 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:16.542 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:16.543 INFO  manager.ListenerWD - List size is ---> 1
+18:58:16.543 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:16.554 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:16.577 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:16.587 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:16.587 INFO  manager.ListenerWD - List size is ---> 1
+18:58:16.587 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:16.600 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:16.634 INFO  TestBase - START TEST with name: registrationSuccessDP
+18:58:16.634 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:21.693 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:21.693 INFO  manager.ListenerWD - List size is ---> 0
+18:58:21.693 INFO  TestBase - Test starts with name ---> registrationSuccessDP
+18:58:21.694 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='registration']
+18:58:21.704 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='registration']
+18:58:21.792 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #name
+18:58:21.802 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #name
+18:58:21.870 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #lastName
+18:58:21.879 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #lastName
+18:58:21.939 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+18:58:21.949 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+18:58:22.022 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+18:58:22.031 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+18:58:22.104 INFO  TestBase - User registers with data: User{email='endy4@mail.tab', password='Ssurname_1234', name='Andy', lastName='Warhol'}
+18:58:22.104 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:22.113 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:22.241 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:22.251 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:22.269 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:22.280 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:22.310 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:22.697 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:22.706 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: h2.message
+18:58:22.716 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: h2.message
+18:58:22.725 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:22.733 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:22.742 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:22.751 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:22.760 INFO  TestBase - Assert passed
+18:58:22.761 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:22.770 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:22.770 INFO  manager.ListenerWD - List size is ---> 1
+18:58:22.770 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:22.780 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:22.804 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:22.814 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:22.814 INFO  manager.ListenerWD - List size is ---> 1
+18:58:22.814 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:22.824 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:22.852 INFO  TestBase - START TEST with name: registrationSuccessDP
+18:58:22.852 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:27.879 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:27.879 INFO  manager.ListenerWD - List size is ---> 0
+18:58:27.880 INFO  TestBase - Test starts with name ---> registrationSuccessDP
+18:58:27.880 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='registration']
+18:58:27.888 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='registration']
+18:58:27.975 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #name
+18:58:27.995 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #name
+18:58:28.062 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #lastName
+18:58:28.072 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #lastName
+18:58:28.132 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+18:58:28.142 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+18:58:28.216 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+18:58:28.226 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+18:58:28.297 INFO  TestBase - User registers with data: User{email='warren@mail.tab', password='Ssurname_1234', name='Warren', lastName='Info'}
+18:58:28.298 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:28.309 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: label[for='terms-of-use']
+18:58:28.443 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:28.452 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:28.469 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:28.478 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:58:28.507 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:28.892 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:28.901 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: h2.message
+18:58:28.909 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: h2.message
+18:58:28.919 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+18:58:28.928 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container
+18:58:28.936 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:28.945 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.dialog-container>h1.title
+18:58:28.954 INFO  TestBase - Assert passed
+18:58:28.955 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:28.964 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:28.964 INFO  manager.ListenerWD - List size is ---> 1
+18:58:28.964 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:28.973 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+18:58:28.997 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:29.006 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:58:29.006 INFO  manager.ListenerWD - List size is ---> 1
+18:58:29.006 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+18:58:29.016 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']

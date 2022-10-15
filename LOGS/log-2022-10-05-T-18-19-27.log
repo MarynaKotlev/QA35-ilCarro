@@ -1,0 +1,18 @@
+18:19:43.819 INFO  TestBase - Test starts with name ---> registrationFailMissedNameField
+18:19:44.842 INFO  TestBase - User registers with data: User{email='test44@mail.com', password='Tester_1234', name='Test', lastName=''}
+18:19:45.034 INFO  TestBase - Assert passed
+18:20:00.182 INFO  TestBase - Test starts with name ---> registrationFailMissedNameField
+18:20:00.544 INFO  TestBase - User registers with data: User{email='test44@mail.com', password='Tester_1234', name='', lastName='Tester1'}
+18:20:00.701 INFO  TestBase - Assert passed
+18:20:15.874 INFO  TestBase - Test starts with name ---> registrationFailUserExists
+18:20:16.255 INFO  TestBase - User registers with data: User{email='marinatest@gmail.com', password='Tester_1234', name='Test1', lastName='Tester1'}
+18:20:17.078 INFO  TestBase - Assert passed
+18:20:27.201 INFO  TestBase - Test starts with name ---> registrationFailWrongEmailFormat
+18:20:27.585 INFO  TestBase - User registers with data: User{email='testerForFailmail.com', password='Tester_1234', name='Test1', lastName='Tester1'}
+18:20:27.750 INFO  TestBase - Assert passed
+18:20:42.897 INFO  TestBase - Test starts with name ---> registrationFailWrongPasswordFormat
+18:20:43.279 INFO  TestBase - User registers with data: User{email='test44@mail.com', password='d', name='Test1', lastName='Tester1'}
+18:20:43.441 INFO  TestBase - Assert passed
+18:20:58.551 INFO  TestBase - Test starts with name ---> registrationSuccess
+18:20:58.943 INFO  TestBase - User registers with data: User{email='tester1258@mail.com', password='Tester_1234', name='Test1', lastName='Tester1'}
+18:20:59.626 INFO  TestBase - Assert passed

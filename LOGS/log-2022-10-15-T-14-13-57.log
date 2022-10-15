@@ -1,0 +1,25 @@
+14:13:58.927 INFO  manager.ApplicationManager - Chrome Driver was opened
+14:14:11.836 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+14:14:11.862 INFO  TestBase - START TEST with name: searchNextMonthSuccess
+14:14:11.864 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+14:14:11.881 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+14:14:11.956 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+14:14:12.404 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+14:14:12.936 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+14:14:12.952 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+14:14:13.013 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+14:14:13.030 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+14:14:13.069 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 25 ']
+14:14:13.086 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 25 ']
+14:14:13.123 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 30 ']
+14:14:13.143 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 30 ']
+14:14:13.190 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+14:14:13.207 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+14:14:13.236 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+14:14:13.247 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+14:14:13.308 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+14:14:13.329 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+14:14:13.329 INFO  manager.ListenerWD - List size is ---> 1
+14:14:13.332 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+14:14:18.393 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+14:14:18.393 INFO  manager.ListenerWD - List size is ---> 0

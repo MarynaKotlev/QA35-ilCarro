@@ -1,0 +1,14 @@
+18:11:19.104 INFO  TestBase - Test starts with name ---> loginNegativeWrongEmailFormat
+18:11:19.107 INFO  TestBase - User logins with email [marinatestgmail.com] and password [Mmarina_1234]
+18:11:19.334 INFO  TestBase - User gets error message [It'snot look like email]
+18:11:24.402 INFO  TestBase - Assert passed
+18:11:39.497 INFO  TestBase - Test starts with name ---> loginNegativeWrongEmailOrPassword
+18:11:39.502 INFO  TestBase - User loginsUser{email='marinatest@gmailcom', password='Mmarina_1234', name='null', lastName='null'}
+18:11:40.870 INFO  TestBase - User gets error message [Wrong email or password]
+18:11:40.902 INFO  TestBase - Assert passed
+18:11:51.025 INFO  TestBase - Test starts with name ---> LoginSuccess
+18:11:51.171 INFO  TestBase - User logins with email [marinatest@gmail.com] and password [Mmarina_1234]
+18:11:51.739 INFO  TestBase - Assert passed
+18:11:56.873 INFO  TestBase - Test starts with name ---> LoginSuccessModel
+18:11:56.873 INFO  TestBase - User loginsUser{email='marinatest@gmail.com', password='Mmarina_1234', name='null', lastName='null'}
+18:11:57.816 INFO  TestBase - Assert passed

@@ -67,17 +67,7 @@ public class HelperUser extends HelperBase {
     }
 
 
-    public String getMessage() {
-        waitUntil(5, By.cssSelector("div.dialog-container"));
 
-        return wd.findElement(By.cssSelector("h2.message")).getText();
-    }
-
-    public String getTitleMessage() {
-        waitUntil(5, By.cssSelector("div.dialog-container"));
-
-        return wd.findElement(By.cssSelector("div.dialog-container>h1.title")).getText();
-    }
 
     public void okButtonClick() {
         if (isElementPresent(By.cssSelector("button.positive-button.ng-star-inserted")))
@@ -95,5 +85,12 @@ public class HelperUser extends HelperBase {
 
         Actions actions = new Actions(wd);
         actions.moveToElement(label, -xOffSet, 0).click().release().perform();
+    }
+
+    public void login(User user) {
+        openLoginForm();
+        fillLoginForm(user);
+        submit();
+        okButtonClick();
     }
 }
