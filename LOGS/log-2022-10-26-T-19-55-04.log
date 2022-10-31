@@ -1,0 +1,29 @@
+19:55:05.944 INFO  manager.ApplicationManager - Chrome Driver was opened
+19:56:22.220 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+19:56:22.247 INFO  TestBase - START TEST with name: searchCurrentMonthSuccess
+19:56:22.248 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+19:56:27.309 INFO  manager.ListenerWD - We have a 'problem'
+19:56:27.309 INFO  manager.ListenerWD - The Error Method name ---> findElement
+19:56:27.311 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4becc3ddb079e7e4357035a6356dd1d5, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4becc3ddb079e7e4357035a6356dd1d5
+19:56:27.313 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1787
+19:56:27.430 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+19:56:32.489 INFO  manager.ListenerWD - We have a 'problem'
+19:56:32.489 INFO  manager.ListenerWD - The Error Method name ---> findElement
+19:56:32.489 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"img[alt='logo']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4becc3ddb079e7e4357035a6356dd1d5, findElement {using=css selector, value=img[alt='logo']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50260}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4becc3ddb079e7e4357035a6356dd1d5
+19:56:32.490 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1031

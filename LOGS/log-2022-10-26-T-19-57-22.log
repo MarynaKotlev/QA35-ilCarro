@@ -1,0 +1,30 @@
+19:57:23.799 INFO  manager.ApplicationManager - Chrome Driver was opened
+19:57:43.971 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+19:57:43.995 INFO  TestBase - START TEST with name: searchNextMonthSuccess
+19:57:43.997 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+19:57:44.015 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+19:57:44.086 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+19:57:44.529 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+19:57:45.063 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+19:57:45.080 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+19:57:45.080 INFO  manager.HelperBase - OS is ---> Windows 10
+19:57:45.122 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+19:57:45.135 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+19:57:45.191 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+19:57:45.207 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+19:57:45.247 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 25 ']
+19:57:45.264 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 25 ']
+19:57:45.299 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 30 ']
+19:57:45.315 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 30 ']
+19:57:45.356 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+19:57:45.372 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+19:57:45.398 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+19:57:45.412 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+19:57:45.475 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+19:57:45.494 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+19:57:45.495 INFO  manager.ListenerWD - List size is ---> 1
+19:57:45.498 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+19:57:45.516 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+19:57:45.754 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+19:57:50.818 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+19:57:50.818 INFO  manager.ListenerWD - List size is ---> 0

@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class Login_Tests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCond() {
         if(app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
         }
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void submitButtonClick() {
         app.getHelperUser().okButtonClick();
     }
@@ -53,7 +53,7 @@ public class Login_Tests extends TestBase {
         logger.info("Assert passed");
     }
 
-    @Test
+    @Test (groups = {"smoke"})
     public void loginNegativeWrongEmailFormat() {
         User user = new User().setEmail("marinatestgmail.com").setPassword("Mmarina_1234");
         logger.info("User logins with email [marinatestgmail.com] and password [Mmarina_1234]");
@@ -72,7 +72,7 @@ public class Login_Tests extends TestBase {
         logger.info("User logins " + user.toString());
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm(user);
-        app.getHelperUser().submit();
+        app.getHelperUser().submitNoWait();
         Assert.assertTrue(app.getHelperUser().getMessage().contains("Wrong email or password"));
         logger.info("User gets error message [Wrong email or password]");
         Assert.assertTrue(app.getHelperUser().getTitleMessage().contains("Authorization error"));

@@ -1,0 +1,101 @@
+18:32:34.781 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:32:48.430 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:32:48.455 INFO  TestBase - START TEST with name: searchAnyPeriodSuccess
+18:32:48.457 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:32:48.475 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:32:48.550 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:32:49.008 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:32:49.539 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:32:49.560 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:32:49.625 INFO  manager.HelperBase - year --> 2022
+18:32:49.625 INFO  manager.HelperBase - day --> 26
+18:32:49.625 INFO  manager.HelperBase - month --> 10
+18:32:49.631 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.646 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.683 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.696 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.729 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.743 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.774 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.788 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.813 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:32:49.832 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:32:49.870 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.883 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.912 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.924 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:32:49.951 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:32:49.965 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:32:50.003 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:32:50.020 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:32:50.050 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:32:50.062 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:32:50.124 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+18:32:50.148 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+18:32:50.148 INFO  manager.ListenerWD - List size is ---> 1
+18:32:50.152 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:32:55.197 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:32:55.197 INFO  manager.ListenerWD - List size is ---> 0
+18:32:55.199 INFO  TestBase - START TEST with name: searchCurrentMonthSuccess
+18:32:55.200 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:32:55.211 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:32:55.296 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:32:55.682 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:32:56.214 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:33:01.253 INFO  manager.ListenerWD - We have a 'problem'
+18:33:01.253 INFO  manager.ListenerWD - The Error Method name ---> findElement
+18:33:01.255 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98f62cf83bc7cda55259426ea9268a04, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98f62cf83bc7cda55259426ea9268a04
+18:33:01.255 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1082
+18:33:01.580 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:06.640 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:06.640 INFO  manager.ListenerWD - List size is ---> 0
+18:33:06.642 INFO  TestBase - START TEST with name: searchInPastNegative
+18:33:06.642 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:33:06.652 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:33:06.713 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:33:07.035 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:33:07.570 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:33:12.617 INFO  manager.ListenerWD - We have a 'problem'
+18:33:12.618 INFO  manager.ListenerWD - The Error Method name ---> findElement
+18:33:12.618 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98f62cf83bc7cda55259426ea9268a04, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98f62cf83bc7cda55259426ea9268a04
+18:33:12.618 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1235
+18:33:12.900 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:17.944 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:17.945 INFO  manager.ListenerWD - List size is ---> 0
+18:33:17.946 INFO  TestBase - START TEST with name: searchNextMonthSuccess
+18:33:17.946 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:33:17.956 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:33:18.032 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:33:18.355 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:33:18.875 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:33:23.922 INFO  manager.ListenerWD - We have a 'problem'
+18:33:23.922 INFO  manager.ListenerWD - The Error Method name ---> findElement
+18:33:23.922 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [98f62cf83bc7cda55259426ea9268a04, findElement {using=id, value=dates}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62586/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 98f62cf83bc7cda55259426ea9268a04
+18:33:23.922 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1512
+18:33:24.201 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:29.245 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:33:29.245 INFO  manager.ListenerWD - List size is ---> 0

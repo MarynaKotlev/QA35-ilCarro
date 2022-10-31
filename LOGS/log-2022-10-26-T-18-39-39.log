@@ -1,0 +1,22 @@
+18:39:41.309 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:39:55.181 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:39:55.207 INFO  TestBase - START TEST with name: searchInPastNegative
+18:39:55.209 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:39:55.227 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:39:55.301 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:39:55.688 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:39:56.219 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:39:56.234 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:39:56.293 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:39:56.309 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:39:56.343 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:39:56.357 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:39:56.399 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type='submit']
+18:39:56.419 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type='submit']
+18:39:56.433 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div[class*='error']
+18:39:56.452 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div[class*='error']
+18:39:56.465 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+18:39:56.479 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+18:39:56.722 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:40:01.734 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:40:01.735 INFO  manager.ListenerWD - List size is ---> 0

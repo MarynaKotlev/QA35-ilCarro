@@ -1,0 +1,29 @@
+18:37:20.914 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:37:29.495 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:37:29.521 INFO  TestBase - START TEST with name: searchCurrentMonthSuccess
+18:37:29.522 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:37:29.540 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:37:29.614 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:37:30.057 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:37:30.595 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:37:30.610 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:37:30.671 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 25 ']
+18:37:30.686 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 25 ']
+18:37:30.711 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 30 ']
+18:37:30.726 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 30 ']
+18:37:30.762 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:37:30.778 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:37:35.982 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+18:37:35.996 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+18:37:37.079 INFO  manager.ListenerWD - We have a 'problem'
+18:37:37.079 INFO  manager.ListenerWD - The Error Method name ---> click
+18:37:37.080 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img _ngcontent-auu-c25="" alt="logo" src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245, 32). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [643d4810e58c5b8e1a33f9405c49dd8f, clickElement {id=cbd34af8-5db7-4af7-8157-253842616d52}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62947/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (643d4810e58c5b8e1a33f9405c49dd8f)] -> css selector: img[alt='logo']]
+Session ID: 643d4810e58c5b8e1a33f9405c49dd8f
+18:37:37.080 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1324

@@ -1,0 +1,45 @@
+18:46:59.003 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:47:36.350 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:47:36.376 INFO  TestBase - START TEST with name: searchAnyPeriodSuccess
+18:47:36.377 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:47:36.395 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:47:36.472 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:47:37.041 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:47:37.575 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:47:37.590 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:47:37.652 INFO  manager.HelperBase - year --> 2022
+18:47:37.652 INFO  manager.HelperBase - day --> 26
+18:47:37.652 INFO  manager.HelperBase - month --> 10
+18:47:37.657 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.675 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.712 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.725 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.757 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.772 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.802 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.814 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.840 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:47:37.856 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:47:37.894 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.908 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.934 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.946 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:47:37.971 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:47:37.984 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:47:38.022 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:47:38.038 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:47:38.065 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:47:38.077 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:47:38.133 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+18:47:38.159 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+18:47:38.160 INFO  manager.ListenerWD - List size is ---> 1
+18:47:38.281 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:47:38.285 INFO  manager.ListenerWD - We have a 'problem'
+18:47:38.285 INFO  manager.ListenerWD - The Error Method name ---> findElements
+18:47:38.287 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, findElements {using=xpath, value=//a[text()=' Logout ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63972}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63972/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+18:47:38.288 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1229

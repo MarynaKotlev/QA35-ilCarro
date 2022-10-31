@@ -1,0 +1,197 @@
+21:33:29.341 INFO  manager.ApplicationManager - Chrome Driver was opened
+21:33:38.406 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+21:33:38.432 INFO  TestBase - START TEST with name: addCarSuccess
+21:33:38.433 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:33:43.492 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:33:43.492 INFO  manager.ListenerWD - List size is ---> 0
+21:33:43.493 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.header a:last-child
+21:33:43.511 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.header a:last-child
+21:33:43.547 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+21:33:43.563 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+21:33:43.640 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+21:33:43.655 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+21:33:43.723 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:43.739 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:43.765 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:43.778 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:43.803 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:33:48.821 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:33:48.821 INFO  manager.ListenerWD - List size is ---> 0
+21:33:48.822 INFO  TestBase - Test starts with name ---> addCarSuccess
+21:33:49.329 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='/let-car-work']
+21:33:49.344 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='/let-car-work']
+21:33:49.392 INFO  manager.ListenerWD - Before Find Element By ---> By.id: pickUpPlace
+21:33:49.406 INFO  manager.ListenerWD - After Find Element By ---> By.id: pickUpPlace
+21:33:49.479 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+21:33:49.992 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+21:33:50.521 INFO  manager.ListenerWD - Before Find Element By ---> By.id: make
+21:33:50.536 INFO  manager.ListenerWD - After Find Element By ---> By.id: make
+21:33:50.598 INFO  manager.ListenerWD - Before Find Element By ---> By.id: model
+21:33:50.611 INFO  manager.ListenerWD - After Find Element By ---> By.id: model
+21:33:50.672 INFO  manager.ListenerWD - Before Find Element By ---> By.id: year
+21:33:50.685 INFO  manager.ListenerWD - After Find Element By ---> By.id: year
+21:33:50.755 INFO  manager.ListenerWD - Before Find Element By ---> By.id: engine
+21:33:50.768 INFO  manager.ListenerWD - After Find Element By ---> By.id: engine
+21:33:50.833 INFO  manager.ListenerWD - Before Find Element By ---> By.id: fuel
+21:33:50.847 INFO  manager.ListenerWD - After Find Element By ---> By.id: fuel
+21:33:50.891 INFO  manager.ListenerWD - Before Find Element By ---> By.id: gear
+21:33:50.904 INFO  manager.ListenerWD - After Find Element By ---> By.id: gear
+21:33:50.942 INFO  manager.ListenerWD - Before Find Element By ---> By.id: wheelsDrive
+21:33:50.953 INFO  manager.ListenerWD - After Find Element By ---> By.id: wheelsDrive
+21:33:50.994 INFO  manager.ListenerWD - Before Find Element By ---> By.id: doors
+21:33:51.007 INFO  manager.ListenerWD - After Find Element By ---> By.id: doors
+21:33:51.075 INFO  manager.ListenerWD - Before Find Element By ---> By.id: seats
+21:33:51.088 INFO  manager.ListenerWD - After Find Element By ---> By.id: seats
+21:33:51.159 INFO  manager.ListenerWD - Before Find Element By ---> By.id: class
+21:33:51.172 INFO  manager.ListenerWD - After Find Element By ---> By.id: class
+21:33:51.242 INFO  manager.ListenerWD - Before Find Element By ---> By.id: fuelConsumption
+21:33:51.254 INFO  manager.ListenerWD - After Find Element By ---> By.id: fuelConsumption
+21:33:51.325 INFO  manager.ListenerWD - Before Find Element By ---> By.id: serialNumber
+21:33:51.337 INFO  manager.ListenerWD - After Find Element By ---> By.id: serialNumber
+21:33:51.410 INFO  manager.ListenerWD - Before Find Element By ---> By.id: price
+21:33:51.422 INFO  manager.ListenerWD - After Find Element By ---> By.id: price
+21:33:51.496 INFO  manager.ListenerWD - Before Find Element By ---> By.id: distance
+21:33:51.508 INFO  manager.ListenerWD - After Find Element By ---> By.id: distance
+21:33:51.586 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .feature-input
+21:33:51.599 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .feature-input
+21:33:51.670 INFO  manager.ListenerWD - Before Find Element By ---> By.id: about
+21:33:51.683 INFO  manager.ListenerWD - After Find Element By ---> By.id: about
+21:33:51.761 INFO  TestBase - User add car: Car(location=Haifa, Israel, make=BMW, model=X5, year=2020, engine=2.5, fuel=Diesel, gear=MT, wD=RWD, doors=4, seats=5, car_class=Sedan, fuelConsumption=11, carRegistrationNumber=11-000-940, price=75, distanceIncluded=100, feature=type of features, about=Lorem Ipsum)
+21:33:51.761 INFO  manager.ListenerWD - Before Find Element By ---> By.id: photos
+21:33:51.773 INFO  manager.ListenerWD - After Find Element By ---> By.id: photos
+21:33:51.805 INFO  TestBase - User attaches photo
+21:33:51.805 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:51.815 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:55.474 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:55.483 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:33:55.509 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.dialog-container
+21:34:00.565 INFO  manager.ListenerWD - We have a 'problem'
+21:34:00.565 INFO  manager.ListenerWD - The Error Method name ---> findElement
+21:34:00.567 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.dialog-container"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, findElement {using=css selector, value=div.dialog-container}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:00.568 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1221
+21:34:00.687 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:05.734 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:05.734 INFO  manager.ListenerWD - List size is ---> 0
+21:34:05.742 INFO  TestBase - START TEST with name: addCarSuccessDP
+21:34:05.742 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:10.798 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:10.798 INFO  manager.ListenerWD - List size is ---> 0
+21:34:10.798 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.header a:last-child
+21:34:10.810 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.header a:last-child
+21:34:10.849 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #email
+21:34:10.861 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #email
+21:34:10.931 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: #password
+21:34:10.943 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: #password
+21:34:11.004 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:34:11.015 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:34:11.032 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+21:34:11.042 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+21:34:11.065 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:34:11.814 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:34:11.814 INFO  manager.ListenerWD - List size is ---> 1
+21:34:11.814 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:34:11.832 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button.positive-button.ng-star-inserted
+21:34:11.855 INFO  TestBase - Test starts with name ---> addCarSuccess
+21:34:12.368 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: a[href='/let-car-work']
+21:34:12.379 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: a[href='/let-car-work']
+21:34:13.450 INFO  manager.ListenerWD - We have a 'problem'
+21:34:13.450 INFO  manager.ListenerWD - The Error Method name ---> click
+21:34:13.450 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cwd-c25="" class="navigation-link" id="1" href="/let-car-work">...</a> is not clickable at point (814, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, clickElement {id=fe1e5068-df64-4d11-abf4-4806906d74f0}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (896ac1e25bcd57fbd4c3e6ab5ed22572)] -> css selector: a[href='/let-car-work']]
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:13.451 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1571
+21:34:13.454 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:13.463 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:13.464 INFO  manager.ListenerWD - List size is ---> 1
+21:34:13.464 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:13.474 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:14.547 INFO  manager.ListenerWD - We have a 'problem'
+21:34:14.548 INFO  manager.ListenerWD - The Error Method name ---> click
+21:34:14.548 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cwd-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Flogin%3Furl%3D%252Flet-car-work">...</a> is not clickable at point (1126, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, clickElement {id=a1566cf5-425c-4e2c-a76c-52bcc765dbcf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (896ac1e25bcd57fbd4c3e6ab5ed22572)] -> xpath: //a[text()=' Logout ']]
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:14.548 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1006
+21:34:14.555 INFO  TestBase - START TEST with name: loginNegativeWrongEmailFormat
+21:34:14.555 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:14.564 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:14.565 INFO  manager.ListenerWD - List size is ---> 1
+21:34:14.565 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:14.573 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:15.628 INFO  manager.ListenerWD - We have a 'problem'
+21:34:15.628 INFO  manager.ListenerWD - The Error Method name ---> click
+21:34:15.629 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cwd-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Flogin%3Furl%3D%252Flet-car-work">...</a> is not clickable at point (1126, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, clickElement {id=a1566cf5-425c-4e2c-a76c-52bcc765dbcf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (896ac1e25bcd57fbd4c3e6ab5ed22572)] -> xpath: //a[text()=' Logout ']]
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:15.629 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1156
+21:34:15.646 INFO  TestBase - START TEST with name: registrationFailMissedLastnameField
+21:34:15.646 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:15.655 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+21:34:15.655 INFO  manager.ListenerWD - List size is ---> 1
+21:34:15.655 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:15.663 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //a[text()=' Logout ']
+21:34:16.727 INFO  manager.ListenerWD - We have a 'problem'
+21:34:16.727 INFO  manager.ListenerWD - The Error Method name ---> click
+21:34:16.727 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-cwd-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Flogin%3Furl%3D%252Flet-car-work">...</a> is not clickable at point (1126, 9). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, clickElement {id=a1566cf5-425c-4e2c-a76c-52bcc765dbcf}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (896ac1e25bcd57fbd4c3e6ab5ed22572)] -> xpath: //a[text()=' Logout ']]
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:16.728 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1772
+21:34:16.741 INFO  TestBase - START TEST with name: searchAnyPeriodSuccess
+21:34:16.742 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+21:34:21.756 INFO  manager.ListenerWD - We have a 'problem'
+21:34:21.756 INFO  manager.ListenerWD - The Error Method name ---> findElement
+21:34:21.756 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#city"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, findElement {using=id, value=city}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:21.756 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1334
+21:34:22.076 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+21:34:22.087 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+21:34:23.152 INFO  manager.ListenerWD - We have a 'problem'
+21:34:23.153 INFO  manager.ListenerWD - The Error Method name ---> click
+21:34:23.153 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img _ngcontent-cwd-c25="" alt="logo" src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245, 11). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [896ac1e25bcd57fbd4c3e6ab5ed22572, clickElement {id=04da4bc0-1709-4cfd-95e1-2433d869c02d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55271}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55271/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (896ac1e25bcd57fbd4c3e6ab5ed22572)] -> css selector: img[alt='logo']]
+Session ID: 896ac1e25bcd57fbd4c3e6ab5ed22572
+21:34:23.153 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1563

@@ -1,0 +1,20 @@
+18:24:41.638 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:24:48.775 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:24:48.800 INFO  TestBase - START TEST with name: searchInPastNegative
+18:24:48.802 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:24:48.821 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:24:48.894 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:24:49.349 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:24:49.880 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:24:49.896 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:24:49.958 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:24:49.978 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:24:50.006 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:24:50.018 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:24:50.059 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type='submit']
+18:24:50.076 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type='submit']
+18:24:50.087 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div[class*='error']
+18:24:50.103 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div[class*='error']
+18:24:50.119 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:24:55.180 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:24:55.181 INFO  manager.ListenerWD - List size is ---> 0

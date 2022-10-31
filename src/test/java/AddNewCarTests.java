@@ -9,14 +9,14 @@ import java.util.Random;
 
 public class AddNewCarTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCondition() {
         if(!app.getHelperUser().isLogged()) {
             app.getHelperUser().login(new User().setEmail("marinatest@gmail.com").setPassword("Mmarina_1234"));
         }
     }
 
-    @Test (dataProvider = "carValidData", dataProviderClass = DataProviderCar.class)
+    @Test (dataProvider = "carValidData", dataProviderClass = DataProviderCar.class, enabled = false)
     public void addCarSuccessDP(Car car){
         logger.info("Test starts with name ---> addCarSuccess");
         app.helperCar().openCarForm();
@@ -31,7 +31,7 @@ public class AddNewCarTests extends TestBase{
         app.helperCar().finishAddingCar();
         }
 
-    @Test
+    @Test(groups = {"smoke", "sanity"})
     public void addCarSuccess(){
         logger.info("Test starts with name ---> addCarSuccess");
         Random random = new Random();

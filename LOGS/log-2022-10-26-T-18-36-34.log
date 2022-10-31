@@ -1,0 +1,76 @@
+18:36:36.526 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:36:46.845 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:36:46.870 INFO  TestBase - START TEST with name: searchAnyPeriodSuccess
+18:36:46.871 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:36:46.889 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:36:46.965 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:36:47.475 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:36:47.999 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:36:48.014 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:36:48.075 INFO  manager.HelperBase - year --> 2022
+18:36:48.075 INFO  manager.HelperBase - day --> 26
+18:36:48.075 INFO  manager.HelperBase - month --> 10
+18:36:48.081 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.096 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.135 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.149 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.182 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.197 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.229 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.241 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.266 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:36:48.281 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 20 ']
+18:36:48.315 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.330 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.357 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.369 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[aria-label='Next month']
+18:36:48.396 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:36:48.412 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 10 ']
+18:36:48.454 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:36:48.467 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:36:48.496 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:36:48.507 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:36:48.565 INFO  manager.ListenerWD - Before Find Elements By ---> By.cssSelector: .search-results
+18:36:48.587 INFO  manager.ListenerWD - After Find Elements By ---> By.cssSelector: .search-results
+18:36:48.587 INFO  manager.ListenerWD - List size is ---> 1
+18:36:48.591 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+18:36:48.606 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+18:36:48.860 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:36:53.903 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:36:53.904 INFO  manager.ListenerWD - List size is ---> 0
+18:36:53.906 INFO  TestBase - START TEST with name: searchCurrentMonthSuccess
+18:36:53.906 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:36:53.916 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:36:53.992 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:36:54.501 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:36:55.034 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:36:55.045 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:36:55.086 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 25 ']
+18:36:55.100 INFO  manager.ListenerWD - After Find Element By ---> By.xpath: //div[text()=' 25 ']
+18:36:55.130 INFO  manager.ListenerWD - Before Find Element By ---> By.xpath: //div[text()=' 30 ']
+18:37:00.186 INFO  manager.ListenerWD - We have a 'problem'
+18:37:00.186 INFO  manager.ListenerWD - The Error Method name ---> findElement
+18:37:00.188 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()=' 30 ']"}
+  (Session info: chrome=106.0.5249.119)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a11384b6ef4426e0d7ce6d1587f540c2, findElement {using=xpath, value=//div[text()=' 30 ']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62825/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a11384b6ef4426e0d7ce6d1587f540c2
+18:37:00.189 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1760
+18:37:00.519 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+18:37:00.528 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+18:37:01.607 INFO  manager.ListenerWD - We have a 'problem'
+18:37:01.607 INFO  manager.ListenerWD - The Error Method name ---> click
+18:37:01.607 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <img _ngcontent-exm-c25="" alt="logo" src="../../../assets/images/navigator/logo.svg"> is not clickable at point (245, 32). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a11384b6ef4426e0d7ce6d1587f540c2, clickElement {id=7998d6c9-057c-4d72-8f35-c4ac28ad9291}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:62825}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62825/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a11384b6ef4426e0d7ce6d1587f540c2)] -> css selector: img[alt='logo']]
+Session ID: a11384b6ef4426e0d7ce6d1587f540c2
+18:37:01.608 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1078

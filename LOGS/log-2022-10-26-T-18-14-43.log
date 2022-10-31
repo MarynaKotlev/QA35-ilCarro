@@ -1,0 +1,26 @@
+18:14:45.349 INFO  manager.ApplicationManager - Chrome Driver was opened
+18:14:52.057 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:14:52.084 INFO  TestBase - START TEST with name: searchInPastNegative
+18:14:52.085 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:14:52.103 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:14:52.175 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:14:52.625 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:14:53.157 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:14:53.174 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:14:53.232 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:14:53.246 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:14:53.288 INFO  manager.ListenerWD - We have a 'problem'
+18:14:53.288 INFO  manager.ListenerWD - The Error Method name ---> clear
+18:14:53.290 INFO  manager.ListenerWD - Error Description ---> org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=106.0.5249.119)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-MEFJ5G1', ip: '192.168.59.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [037e14b018dfbc7090066075125be874, clearElement {id=cf065d9e-15db-4a53-8c10-6e42ddbce542}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.119, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\UserONE\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:61504}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61504/devtoo..., se:cdpVersion: 106.0.5249.119, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (037e14b018dfbc7090066075125be874)] -> css selector: .cdk-overlay-container]
+Session ID: 037e14b018dfbc7090066075125be874
+18:14:53.291 INFO  manager.ListenerWD - Screen with error is ---> 'screen'1120
+18:14:53.297 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:14:58.353 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:14:58.354 INFO  manager.ListenerWD - List size is ---> 0

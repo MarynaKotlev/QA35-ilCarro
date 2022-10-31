@@ -1,0 +1,27 @@
+18:11:36.020 INFO  manager.ApplicationManager - All tests start in Chrome
+18:12:04.026 INFO  manager.ApplicationManager - Current URL is ---> https://ilcarro-1578153671498.web.app/search
+18:12:04.054 INFO  TestBase - START TEST with name: searchInPastNegative
+18:12:04.055 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: img[alt='logo']
+18:12:04.076 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: img[alt='logo']
+18:12:04.293 INFO  manager.ListenerWD - Before Find Element By ---> By.id: city
+18:12:04.309 INFO  manager.ListenerWD - After Find Element By ---> By.id: city
+18:12:04.898 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div.pac-item
+18:12:04.920 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div.pac-item
+18:12:05.458 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:12:05.477 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:12:05.478 INFO  manager.HelperBase - OS is ---> Windows 10
+18:12:05.525 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:12:05.538 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:12:05.599 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:12:05.616 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: .cdk-overlay-container
+18:12:05.649 INFO  manager.ListenerWD - Before Find Element By ---> By.id: dates
+18:12:05.662 INFO  manager.ListenerWD - After Find Element By ---> By.id: dates
+18:12:05.700 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type$='submit']
+18:12:05.716 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type$='submit']
+18:12:05.748 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: button[type='submit']
+18:12:05.772 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: button[type='submit']
+18:12:05.782 INFO  manager.ListenerWD - Before Find Element By ---> By.cssSelector: div[class*='error']
+18:12:05.800 INFO  manager.ListenerWD - After Find Element By ---> By.cssSelector: div[class*='error']
+18:12:05.814 INFO  manager.ListenerWD - Before Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:12:10.872 INFO  manager.ListenerWD - After Find Elements By ---> By.xpath: //a[text()=' Logout ']
+18:12:10.872 INFO  manager.ListenerWD - List size is ---> 0

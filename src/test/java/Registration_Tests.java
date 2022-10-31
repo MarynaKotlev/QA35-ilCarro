@@ -6,18 +6,18 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class Registration_Tests extends TestBase{
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void preCond() {
         if(app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
         }
     }
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void submitButtonClick() {
        app.getHelperUser().okButtonClick();
     }
 
-    @Test (dataProvider = "regDataValid", dataProviderClass = DataProviderUser.class)
+    @Test (dataProvider = "regDataValid", dataProviderClass = DataProviderUser.class, enabled = false)
     public void registrationSuccessDP(User user) {
         logger.info("Test starts with name ---> registrationSuccessDP");
         app.getHelperUser().openRegistrationForm();
@@ -30,7 +30,7 @@ public class Registration_Tests extends TestBase{
         logger.info("Assert passed");
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationSuccess() {
         logger.info("Test starts with name ---> registrationSuccess");
         int i = (int) (System.currentTimeMillis()/1000)%3600;
@@ -54,6 +54,7 @@ public class Registration_Tests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("User registers with data: " + user);
         app.getHelperUser().checkPolicy();
+        app.getHelperUser().submitNoWait();
         Assert.assertFalse(app.getHelperUser().isYallaButtonActive());
         Assert.assertTrue(app.getHelperUser().errorMessage().contains("Wrong email format"));
         logger.info("Assert passed");
@@ -67,12 +68,13 @@ public class Registration_Tests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("User registers with data: " + user);
         app.getHelperUser().checkPolicy();
+        app.getHelperUser().submitNoWait();
         Assert.assertFalse(app.getHelperUser().isYallaButtonActive());
         Assert.assertTrue(app.getHelperUser().errorMessage().contains("Password must contain minimum 8 symbols"));
         logger.info("Assert passed");
     }
 
-    @Test
+    @Test (groups = {"sanity"})
     public void registrationFailMissedNameField() {
         logger.info("Test starts with name ---> registrationFailMissedNameField");
         User user = new User().setName("").setLastName("Tester1").setEmail("test44@mail.com").setPassword("Tester_1234");
@@ -80,6 +82,7 @@ public class Registration_Tests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("User registers with data: " + user);
         app.getHelperUser().checkPolicy();
+        app.getHelperUser().submitNoWait();
         Assert.assertFalse(app.getHelperUser().isYallaButtonActive());
         Assert.assertTrue(app.getHelperUser().errorMessage().contains("Name is required"));
         logger.info("Assert passed");
@@ -93,6 +96,7 @@ public class Registration_Tests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("User registers with data: " + user);
         app.getHelperUser().checkPolicy();
+        app.getHelperUser().submitNoWait();
         Assert.assertFalse(app.getHelperUser().isYallaButtonActive());
         Assert.assertEquals(app.getHelperUser().errorMessage(), "Last name is required");
         logger.info("Assert passed");
@@ -107,7 +111,7 @@ public class Registration_Tests extends TestBase{
         app.getHelperUser().fillRegistrationForm(user);
         logger.info("User registers with data: " + user);
         app.getHelperUser().checkPolicy();
-        app.getHelperUser().submit();
+        app.getHelperUser().submitNoWait();
         Assert.assertTrue(app.getHelperUser().getMessage().contains("User with this email already exists"));
         Assert.assertEquals(app.getHelperUser().getTitleMessage(), "Registration error");
         logger.info("Assert passed");

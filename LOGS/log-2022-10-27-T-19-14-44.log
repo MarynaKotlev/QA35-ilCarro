@@ -1,0 +1,3 @@
+19:14:44.773 INFO  TestBase - Test starts with name ---> registrationSuccess
+19:14:44.785 INFO  TestBase - User logins with email [marinatestgmail.com] and password [Mmarina_1234]
+19:14:44.786 INFO  TestBase - Test starts with name ---> addCarSuccess
